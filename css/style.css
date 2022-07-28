@@ -36,5 +36,5 @@ header .header__logo svg:hover {
 .logo {
   background-color: aqua;
   opacity: 0.5;
-  fill: red;
+  fill: black;
 }
