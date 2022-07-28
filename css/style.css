@@ -20,6 +20,7 @@ header {
 header .header__logo svg:hover {
   color: red;
 }
+
 .cover {
   width: 100%;
   height: 80vh;
