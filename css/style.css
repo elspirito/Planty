@@ -1,6 +1,8 @@
 @import '../css/destyle.css';
 body {
   font-family: Lora, "Times New Roman", Times, serif;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
 }
 
 header {
@@ -17,8 +19,13 @@ header {
           align-items: center;
   padding: 24px;
 }
-header .header__logo svg:hover {
-  color: red;
+
+.header__logo {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.header__logo:hover {
+  opacity: 0.5;
 }
 
 .cover {
@@ -31,10 +38,4 @@ header .header__logo svg:hover {
   background: #010101;
   color: #eee;
   border-radius: 8px;
-}
-
-.logo {
-  background-color: aqua;
-  opacity: 0.5;
-  fill: black;
 }
