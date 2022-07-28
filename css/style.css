@@ -1,6 +1,8 @@
 @import '../css/destyle.css';
 body {
   font-family: Lora, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 header {
@@ -21,8 +23,29 @@ header {
 .header__logo {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  padding: 0 0 14px 0;
 }
 .header__logo:hover {
+  opacity: 0.5;
+}
+
+.header__nav a {
+  padding: 8px 0;
+  margin: 0 16px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border-bottom: 1px solid hsla(0deg, 0%, 0%, 0);
+}
+.header__nav a:hover {
+  border-bottom: 1px solid hsla(0deg, 0%, 0%, 0.5);
+}
+
+.header__controls a {
+  padding: 4px;
+}
+.header__controls a:hover {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   opacity: 0.5;
 }
 
