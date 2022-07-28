@@ -1,8 +1,6 @@
 @import '../css/destyle.css';
 body {
   font-family: Lora, "Times New Roman", Times, serif;
-  -webkit-transition: all 1s ease-in;
-  transition: all 1s ease-in;
 }
 
 header {
